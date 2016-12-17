@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0131CF8C1DFCC5D200F6F8A7 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0131CF8B1DFCC5D200F6F8A7 /* MainNavigationController.m */; };
+		01680B7B1DFBE84300DFEAA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680B7A1DFBE84300DFEAA9 /* main.m */; };
+		01680B7E1DFBE84300DFEAA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680B7D1DFBE84300DFEAA9 /* AppDelegate.m */; };
+		01680B811DFBE84300DFEAA9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680B801DFBE84300DFEAA9 /* LoginViewController.m */; };
+		01680B861DFBE84300DFEAA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01680B851DFBE84300DFEAA9 /* Assets.xcassets */; };
+		01680B891DFBE84300DFEAA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01680B871DFBE84300DFEAA9 /* LaunchScreen.storyboard */; };
+		01680B941DFBE84300DFEAA9 /* FirebaseTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680B931DFBE84300DFEAA9 /* FirebaseTestTests.m */; };
+		01680B9F1DFBE84300DFEAA9 /* FirebaseTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680B9E1DFBE84300DFEAA9 /* FirebaseTestUITests.m */; };
+		01680BAF1DFBEA3B00DFEAA9 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BAE1DFBEA3B00DFEAA9 /* FirebaseAnalytics.framework */; };
+		01680BB11DFBEA6800DFEAA9 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BB01DFBEA6800DFEAA9 /* FirebaseCore.framework */; };
+		01680BB31DFBEA7700DFEAA9 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BB21DFBEA7700DFEAA9 /* FirebaseInstanceID.framework */; };
+		01680BB51DFBEA7F00DFEAA9 /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BB41DFBEA7F00DFEAA9 /* GoogleInterchangeUtilities.framework */; };
+		01680BB71DFBEA8C00DFEAA9 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BB61DFBEA8C00DFEAA9 /* GoogleSymbolUtilities.framework */; };
+		01680BB91DFBEA9B00DFEAA9 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BB81DFBEA9B00DFEAA9 /* GoogleToolboxForMac.framework */; };
+		01680BBB1DFBED3A00DFEAA9 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BBA1DFBED3A00DFEAA9 /* FirebaseDatabase.framework */; };
+		01680BBD1DFBED5C00DFEAA9 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BBC1DFBED5C00DFEAA9 /* FirebaseAuth.framework */; };
+		01680BBF1DFBED6500DFEAA9 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01680BBE1DFBED6500DFEAA9 /* GTMSessionFetcher.framework */; };
+		01680BC21DFBF01D00DFEAA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01680BC11DFBF01D00DFEAA9 /* GoogleService-Info.plist */; };
+		01680BC91DFC105400DFEAA9 /* LMSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BC81DFC105400DFEAA9 /* LMSideBarController.m */; };
+		01680BCE1DFC107C00DFEAA9 /* LMSideBarDepthStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BCB1DFC107C00DFEAA9 /* LMSideBarDepthStyle.m */; };
+		01680BCF1DFC107C00DFEAA9 /* LMSideBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BCD1DFC107C00DFEAA9 /* LMSideBarStyle.m */; };
+		01680BD21DFC109200DFEAA9 /* UIViewController+LMSideBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BD11DFC109200DFEAA9 /* UIViewController+LMSideBarController.m */; };
+		01680BD51DFC109B00DFEAA9 /* UIImage+LMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BD41DFC109B00DFEAA9 /* UIImage+LMExtension.m */; };
+		01680BD81DFC11DD00DFEAA9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BD71DFC11DD00DFEAA9 /* RootViewController.m */; };
+		01680BDB1DFC202A00DFEAA9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BDA1DFC202A00DFEAA9 /* HomeViewController.m */; };
+		01680BDE1DFC223100DFEAA9 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01680BDD1DFC223100DFEAA9 /* LeftMenuViewController.m */; };
+		0188E8231DFCFE2200706BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0188E81F1DFCF50B00706BCF /* Main.storyboard */; };
+		0188E82A1DFD093D00706BCF /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188E8291DFD093D00706BCF /* AddFriendViewController.m */; };
+		0188E82D1DFD504B00706BCF /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188E82C1DFD504B00706BCF /* Database.m */; };
+		0188E8301DFD5FDB00706BCF /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188E82F1DFD5FDB00706BCF /* User.m */; };
+		0188E8341DFE3D4200706BCF /* AddBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188E8331DFE3D4200706BCF /* AddBillViewController.m */; };
+		0188E8381DFE727D00706BCF /* UserBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188E8371DFE727D00706BCF /* UserBalance.m */; };
+		0188E83C1DFE826E00706BCF /* FriendDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0188E83B1DFE826E00706BCF /* FriendDetailsViewController.m */; };
+		01E358B71DFCE6AB006EABAC /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E358B61DFCE6AB006EABAC /* RegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01680B901DFBE84300DFEAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01680B6E1DFBE84200DFEAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01680B751DFBE84200DFEAA9;
+			remoteInfo = FirebaseTest;
+		};
+		01680B9B1DFBE84300DFEAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01680B6E1DFBE84200DFEAA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01680B751DFBE84200DFEAA9;
+			remoteInfo = FirebaseTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0131CF8A1DFCC5D200F6F8A7 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		0131CF8B1DFCC5D200F6F8A7 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		01680B761DFBE84300DFEAA9 /* MoneySplitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneySplitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01680B7A1DFBE84300DFEAA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01680B7C1DFBE84300DFEAA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01680B7D1DFBE84300DFEAA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01680B7F1DFBE84300DFEAA9 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		01680B801DFBE84300DFEAA9 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		01680B851DFBE84300DFEAA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01680B881DFBE84300DFEAA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01680B8A1DFBE84300DFEAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01680B8F1DFBE84300DFEAA9 /* MoneySplitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneySplitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01680B931DFBE84300DFEAA9 /* FirebaseTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseTestTests.m; sourceTree = "<group>"; };
+		01680B951DFBE84300DFEAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01680B9A1DFBE84300DFEAA9 /* MoneySplitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneySplitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01680B9E1DFBE84300DFEAA9 /* FirebaseTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirebaseTestUITests.m; sourceTree = "<group>"; };
+		01680BA01DFBE84300DFEAA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01680BAE1DFBEA3B00DFEAA9 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		01680BB01DFBEA6800DFEAA9 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		01680BB21DFBEA7700DFEAA9 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		01680BB41DFBEA7F00DFEAA9 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		01680BB61DFBEA8C00DFEAA9 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		01680BB81DFBEA9B00DFEAA9 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		01680BBA1DFBED3A00DFEAA9 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		01680BBC1DFBED5C00DFEAA9 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		01680BBE1DFBED6500DFEAA9 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		01680BC01DFBEF5C00DFEAA9 /* Firebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		01680BC11DFBF01D00DFEAA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		01680BC71DFC105400DFEAA9 /* LMSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSideBarController.h; sourceTree = "<group>"; };
+		01680BC81DFC105400DFEAA9 /* LMSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSideBarController.m; sourceTree = "<group>"; };
+		01680BCA1DFC107C00DFEAA9 /* LMSideBarDepthStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSideBarDepthStyle.h; sourceTree = "<group>"; };
+		01680BCB1DFC107C00DFEAA9 /* LMSideBarDepthStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSideBarDepthStyle.m; sourceTree = "<group>"; };
+		01680BCC1DFC107C00DFEAA9 /* LMSideBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMSideBarStyle.h; sourceTree = "<group>"; };
+		01680BCD1DFC107C00DFEAA9 /* LMSideBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMSideBarStyle.m; sourceTree = "<group>"; };
+		01680BD01DFC109200DFEAA9 /* UIViewController+LMSideBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LMSideBarController.h"; sourceTree = "<group>"; };
+		01680BD11DFC109200DFEAA9 /* UIViewController+LMSideBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LMSideBarController.m"; sourceTree = "<group>"; };
+		01680BD31DFC109B00DFEAA9 /* UIImage+LMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LMExtension.h"; sourceTree = "<group>"; };
+		01680BD41DFC109B00DFEAA9 /* UIImage+LMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LMExtension.m"; sourceTree = "<group>"; };
+		01680BD61DFC11DD00DFEAA9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		01680BD71DFC11DD00DFEAA9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		01680BD91DFC202A00DFEAA9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		01680BDA1DFC202A00DFEAA9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		01680BDC1DFC223100DFEAA9 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		01680BDD1DFC223100DFEAA9 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		0188E81F1DFCF50B00706BCF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0188E8281DFD093D00706BCF /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		0188E8291DFD093D00706BCF /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		0188E82B1DFD504B00706BCF /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		0188E82C1DFD504B00706BCF /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		0188E82E1DFD5FDB00706BCF /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		0188E82F1DFD5FDB00706BCF /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		0188E8311DFD7DBE00706BCF /* FirebaseTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseTest.entitlements; sourceTree = "<group>"; };
+		0188E8321DFE3D4200706BCF /* AddBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBillViewController.h; sourceTree = "<group>"; };
+		0188E8331DFE3D4200706BCF /* AddBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBillViewController.m; sourceTree = "<group>"; };
+		0188E8361DFE727D00706BCF /* UserBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserBalance.h; sourceTree = "<group>"; };
+		0188E8371DFE727D00706BCF /* UserBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserBalance.m; sourceTree = "<group>"; };
+		0188E83A1DFE826E00706BCF /* FriendDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDetailsViewController.h; sourceTree = "<group>"; };
+		0188E83B1DFE826E00706BCF /* FriendDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDetailsViewController.m; sourceTree = "<group>"; };
+		01E358B51DFCE6AB006EABAC /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		01E358B61DFCE6AB006EABAC /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01680B731DFBE84200DFEAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01680BBB1DFBED3A00DFEAA9 /* FirebaseDatabase.framework in Frameworks */,
+				01680BBF1DFBED6500DFEAA9 /* GTMSessionFetcher.framework in Frameworks */,
+				01680BB11DFBEA6800DFEAA9 /* FirebaseCore.framework in Frameworks */,
+				01680BB51DFBEA7F00DFEAA9 /* GoogleInterchangeUtilities.framework in Frameworks */,
+				01680BB71DFBEA8C00DFEAA9 /* GoogleSymbolUtilities.framework in Frameworks */,
+				01680BB91DFBEA9B00DFEAA9 /* GoogleToolboxForMac.framework in Frameworks */,
+				01680BBD1DFBED5C00DFEAA9 /* FirebaseAuth.framework in Frameworks */,
+				01680BB31DFBEA7700DFEAA9 /* FirebaseInstanceID.framework in Frameworks */,
+				01680BAF1DFBEA3B00DFEAA9 /* FirebaseAnalytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01680B8C1DFBE84300DFEAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01680B971DFBE84300DFEAA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01680B6D1DFBE84200DFEAA9 = {
+			isa = PBXGroup;
+			children = (
+				01680BBE1DFBED6500DFEAA9 /* GTMSessionFetcher.framework */,
+				01680BBC1DFBED5C00DFEAA9 /* FirebaseAuth.framework */,
+				01680BBA1DFBED3A00DFEAA9 /* FirebaseDatabase.framework */,
+				01680BB81DFBEA9B00DFEAA9 /* GoogleToolboxForMac.framework */,
+				01680BB61DFBEA8C00DFEAA9 /* GoogleSymbolUtilities.framework */,
+				01680BB41DFBEA7F00DFEAA9 /* GoogleInterchangeUtilities.framework */,
+				01680BB21DFBEA7700DFEAA9 /* FirebaseInstanceID.framework */,
+				01680BB01DFBEA6800DFEAA9 /* FirebaseCore.framework */,
+				01680BAE1DFBEA3B00DFEAA9 /* FirebaseAnalytics.framework */,
+				01680B781DFBE84300DFEAA9 /* MoneySplitApp */,
+				01680B921DFBE84300DFEAA9 /* FirebaseTestTests */,
+				01680B9D1DFBE84300DFEAA9 /* FirebaseTestUITests */,
+				01680B771DFBE84300DFEAA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01680B771DFBE84300DFEAA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01680B761DFBE84300DFEAA9 /* MoneySplitApp.app */,
+				01680B8F1DFBE84300DFEAA9 /* MoneySplitAppTests.xctest */,
+				01680B9A1DFBE84300DFEAA9 /* MoneySplitAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01680B781DFBE84300DFEAA9 /* MoneySplitApp */ = {
+			isa = PBXGroup;
+			children = (
+				01B1A05F1E055FAC00E44F69 /* Model */,
+				0188E8391DFE81FE00706BCF /* Controller */,
+				0188E8311DFD7DBE00706BCF /* FirebaseTest.entitlements */,
+				01B1A0601E055FB900E44F69 /* View */,
+				01680B7C1DFBE84300DFEAA9 /* AppDelegate.h */,
+				01680B7D1DFBE84300DFEAA9 /* AppDelegate.m */,
+				0188E81F1DFCF50B00706BCF /* Main.storyboard */,
+				01680B851DFBE84300DFEAA9 /* Assets.xcassets */,
+				01680B871DFBE84300DFEAA9 /* LaunchScreen.storyboard */,
+				01680B8A1DFBE84300DFEAA9 /* Info.plist */,
+				01680BC11DFBF01D00DFEAA9 /* GoogleService-Info.plist */,
+				01680B791DFBE84300DFEAA9 /* Supporting Files */,
+			);
+			name = MoneySplitApp;
+			path = FirebaseTest;
+			sourceTree = "<group>";
+		};
+		01680B791DFBE84300DFEAA9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01680B7A1DFBE84300DFEAA9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01680B921DFBE84300DFEAA9 /* FirebaseTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				01680B931DFBE84300DFEAA9 /* FirebaseTestTests.m */,
+				01680B951DFBE84300DFEAA9 /* Info.plist */,
+			);
+			path = FirebaseTestTests;
+			sourceTree = "<group>";
+		};
+		01680B9D1DFBE84300DFEAA9 /* FirebaseTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01680B9E1DFBE84300DFEAA9 /* FirebaseTestUITests.m */,
+				01680BA01DFBE84300DFEAA9 /* Info.plist */,
+			);
+			path = FirebaseTestUITests;
+			sourceTree = "<group>";
+		};
+		0188E8241DFD023100706BCF /* Login/Register */ = {
+			isa = PBXGroup;
+			children = (
+				01680B7F1DFBE84300DFEAA9 /* LoginViewController.h */,
+				01680B801DFBE84300DFEAA9 /* LoginViewController.m */,
+				01E358B51DFCE6AB006EABAC /* RegisterViewController.h */,
+				01E358B61DFCE6AB006EABAC /* RegisterViewController.m */,
+			);
+			name = Login/Register;
+			sourceTree = "<group>";
+		};
+		0188E8261DFD02C400706BCF /* MenuBarAPI */ = {
+			isa = PBXGroup;
+			children = (
+				01680BC71DFC105400DFEAA9 /* LMSideBarController.h */,
+				01680BC81DFC105400DFEAA9 /* LMSideBarController.m */,
+				01680BCA1DFC107C00DFEAA9 /* LMSideBarDepthStyle.h */,
+				01680BCB1DFC107C00DFEAA9 /* LMSideBarDepthStyle.m */,
+				01680BCC1DFC107C00DFEAA9 /* LMSideBarStyle.h */,
+				01680BCD1DFC107C00DFEAA9 /* LMSideBarStyle.m */,
+				01680BD01DFC109200DFEAA9 /* UIViewController+LMSideBarController.h */,
+				01680BD11DFC109200DFEAA9 /* UIViewController+LMSideBarController.m */,
+				01680BD31DFC109B00DFEAA9 /* UIImage+LMExtension.h */,
+				01680BD41DFC109B00DFEAA9 /* UIImage+LMExtension.m */,
+			);
+			name = MenuBarAPI;
+			sourceTree = "<group>";
+		};
+		0188E8271DFD039700706BCF /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				01680BDC1DFC223100DFEAA9 /* LeftMenuViewController.h */,
+				01680BDD1DFC223100DFEAA9 /* LeftMenuViewController.m */,
+				0131CF8A1DFCC5D200F6F8A7 /* MainNavigationController.h */,
+				0131CF8B1DFCC5D200F6F8A7 /* MainNavigationController.m */,
+				01680BD61DFC11DD00DFEAA9 /* RootViewController.h */,
+				01680BD71DFC11DD00DFEAA9 /* RootViewController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		0188E8351DFE3D5800706BCF /* LeftMenuViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0188E8281DFD093D00706BCF /* AddFriendViewController.h */,
+				0188E8291DFD093D00706BCF /* AddFriendViewController.m */,
+				0188E8321DFE3D4200706BCF /* AddBillViewController.h */,
+				0188E8331DFE3D4200706BCF /* AddBillViewController.m */,
+				01680BD91DFC202A00DFEAA9 /* HomeViewController.h */,
+				01680BDA1DFC202A00DFEAA9 /* HomeViewController.m */,
+				0188E83A1DFE826E00706BCF /* FriendDetailsViewController.h */,
+				0188E83B1DFE826E00706BCF /* FriendDetailsViewController.m */,
+			);
+			name = LeftMenuViewControllers;
+			sourceTree = "<group>";
+		};
+		0188E8391DFE81FE00706BCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0188E8361DFE727D00706BCF /* UserBalance.h */,
+				0188E8371DFE727D00706BCF /* UserBalance.m */,
+				0188E82E1DFD5FDB00706BCF /* User.h */,
+				0188E82F1DFD5FDB00706BCF /* User.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		01B1A05F1E055FAC00E44F69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				01680BC01DFBEF5C00DFEAA9 /* Firebase.h */,
+				0188E82B1DFD504B00706BCF /* Database.h */,
+				0188E82C1DFD504B00706BCF /* Database.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		01B1A0601E055FB900E44F69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0188E8261DFD02C400706BCF /* MenuBarAPI */,
+				0188E8351DFE3D5800706BCF /* LeftMenuViewControllers */,
+				0188E8271DFD039700706BCF /* Navigation */,
+				0188E8241DFD023100706BCF /* Login/Register */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01680B751DFBE84200DFEAA9 /* MoneySplitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01680BA31DFBE84300DFEAA9 /* Build configuration list for PBXNativeTarget "MoneySplitApp" */;
+			buildPhases = (
+				01680B721DFBE84200DFEAA9 /* Sources */,
+				01680B731DFBE84200DFEAA9 /* Frameworks */,
+				01680B741DFBE84200DFEAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneySplitApp;
+			productName = FirebaseTest;
+			productReference = 01680B761DFBE84300DFEAA9 /* MoneySplitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01680B8E1DFBE84300DFEAA9 /* MoneySplitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01680BA61DFBE84300DFEAA9 /* Build configuration list for PBXNativeTarget "MoneySplitAppTests" */;
+			buildPhases = (
+				01680B8B1DFBE84300DFEAA9 /* Sources */,
+				01680B8C1DFBE84300DFEAA9 /* Frameworks */,
+				01680B8D1DFBE84300DFEAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01680B911DFBE84300DFEAA9 /* PBXTargetDependency */,
+			);
+			name = MoneySplitAppTests;
+			productName = FirebaseTestTests;
+			productReference = 01680B8F1DFBE84300DFEAA9 /* MoneySplitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01680B991DFBE84300DFEAA9 /* MoneySplitAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01680BA91DFBE84300DFEAA9 /* Build configuration list for PBXNativeTarget "MoneySplitAppUITests" */;
+			buildPhases = (
+				01680B961DFBE84300DFEAA9 /* Sources */,
+				01680B971DFBE84300DFEAA9 /* Frameworks */,
+				01680B981DFBE84300DFEAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01680B9C1DFBE84300DFEAA9 /* PBXTargetDependency */,
+			);
+			name = MoneySplitAppUITests;
+			productName = FirebaseTestUITests;
+			productReference = 01680B9A1DFBE84300DFEAA9 /* MoneySplitAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01680B6E1DFBE84200DFEAA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Johnson Hui";
+				TargetAttributes = {
+					01680B751DFBE84200DFEAA9 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HXCR4275J9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					01680B8E1DFBE84300DFEAA9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01680B751DFBE84200DFEAA9;
+					};
+					01680B991DFBE84300DFEAA9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01680B751DFBE84200DFEAA9;
+					};
+				};
+			};
+			buildConfigurationList = 01680B711DFBE84200DFEAA9 /* Build configuration list for PBXProject "MoneySplitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01680B6D1DFBE84200DFEAA9;
+			productRefGroup = 01680B771DFBE84300DFEAA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01680B751DFBE84200DFEAA9 /* MoneySplitApp */,
+				01680B8E1DFBE84300DFEAA9 /* MoneySplitAppTests */,
+				01680B991DFBE84300DFEAA9 /* MoneySplitAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01680B741DFBE84200DFEAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01680B891DFBE84300DFEAA9 /* LaunchScreen.storyboard in Resources */,
+				0188E8231DFCFE2200706BCF /* Main.storyboard in Resources */,
+				01680BC21DFBF01D00DFEAA9 /* GoogleService-Info.plist in Resources */,
+				01680B861DFBE84300DFEAA9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01680B8D1DFBE84300DFEAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01680B981DFBE84300DFEAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01680B721DFBE84200DFEAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0188E8301DFD5FDB00706BCF /* User.m in Sources */,
+				01680BCE1DFC107C00DFEAA9 /* LMSideBarDepthStyle.m in Sources */,
+				0188E82D1DFD504B00706BCF /* Database.m in Sources */,
+				01680BD21DFC109200DFEAA9 /* UIViewController+LMSideBarController.m in Sources */,
+				0188E82A1DFD093D00706BCF /* AddFriendViewController.m in Sources */,
+				0131CF8C1DFCC5D200F6F8A7 /* MainNavigationController.m in Sources */,
+				0188E83C1DFE826E00706BCF /* FriendDetailsViewController.m in Sources */,
+				01680BD51DFC109B00DFEAA9 /* UIImage+LMExtension.m in Sources */,
+				01680BDB1DFC202A00DFEAA9 /* HomeViewController.m in Sources */,
+				01680B811DFBE84300DFEAA9 /* LoginViewController.m in Sources */,
+				0188E8381DFE727D00706BCF /* UserBalance.m in Sources */,
+				01680B7E1DFBE84300DFEAA9 /* AppDelegate.m in Sources */,
+				01680BCF1DFC107C00DFEAA9 /* LMSideBarStyle.m in Sources */,
+				01680B7B1DFBE84300DFEAA9 /* main.m in Sources */,
+				01E358B71DFCE6AB006EABAC /* RegisterViewController.m in Sources */,
+				01680BD81DFC11DD00DFEAA9 /* RootViewController.m in Sources */,
+				0188E8341DFE3D4200706BCF /* AddBillViewController.m in Sources */,
+				01680BC91DFC105400DFEAA9 /* LMSideBarController.m in Sources */,
+				01680BDE1DFC223100DFEAA9 /* LeftMenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01680B8B1DFBE84300DFEAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01680B941DFBE84300DFEAA9 /* FirebaseTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01680B961DFBE84300DFEAA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01680B9F1DFBE84300DFEAA9 /* FirebaseTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01680B911DFBE84300DFEAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01680B751DFBE84200DFEAA9 /* MoneySplitApp */;
+			targetProxy = 01680B901DFBE84300DFEAA9 /* PBXContainerItemProxy */;
+		};
+		01680B9C1DFBE84300DFEAA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01680B751DFBE84200DFEAA9 /* MoneySplitApp */;
+			targetProxy = 01680B9B1DFBE84300DFEAA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01680B871DFBE84300DFEAA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01680B881DFBE84300DFEAA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01680BA11DFBE84300DFEAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01680BA21DFBE84300DFEAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01680BA41DFBE84300DFEAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseTest/FirebaseTest.entitlements;
+				DEVELOPMENT_TEAM = HXCR4275J9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcgdv.MoneySplitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		01680BA51DFBE84300DFEAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseTest/FirebaseTest.entitlements;
+				DEVELOPMENT_TEAM = HXCR4275J9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = FirebaseTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcgdv.MoneySplitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		01680BA71DFBE84300DFEAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebaseTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcgdv.FirebaseTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneySplitApp.app/MoneySplitApp";
+			};
+			name = Debug;
+		};
+		01680BA81DFBE84300DFEAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FirebaseTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcgdv.FirebaseTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneySplitApp.app/MoneySplitApp";
+			};
+			name = Release;
+		};
+		01680BAA1DFBE84300DFEAA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirebaseTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcgdv.FirebaseTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirebaseTest;
+			};
+			name = Debug;
+		};
+		01680BAB1DFBE84300DFEAA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FirebaseTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcgdv.FirebaseTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirebaseTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01680B711DFBE84200DFEAA9 /* Build configuration list for PBXProject "MoneySplitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01680BA11DFBE84300DFEAA9 /* Debug */,
+				01680BA21DFBE84300DFEAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01680BA31DFBE84300DFEAA9 /* Build configuration list for PBXNativeTarget "MoneySplitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01680BA41DFBE84300DFEAA9 /* Debug */,
+				01680BA51DFBE84300DFEAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01680BA61DFBE84300DFEAA9 /* Build configuration list for PBXNativeTarget "MoneySplitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01680BA71DFBE84300DFEAA9 /* Debug */,
+				01680BA81DFBE84300DFEAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01680BA91DFBE84300DFEAA9 /* Build configuration list for PBXNativeTarget "MoneySplitAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01680BAA1DFBE84300DFEAA9 /* Debug */,
+				01680BAB1DFBE84300DFEAA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01680B6E1DFBE84200DFEAA9 /* Project object */;
+}
